@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@keyframes colorPulse {
+  0%, 100% {
+    background-color: #bfdbfe;
+  }
+  50% {
+    background-color: #c4b5fd;
+  }
+}
+
+.pulse-bg {
+  animation: colorPulse 6s ease-in-out infinite;
+}
+
+
